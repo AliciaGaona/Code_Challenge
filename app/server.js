@@ -13,3 +13,9 @@ app.get("/v1/students/Email/haveCertification", (request, response) => {
     const studentsHaveCertification = ExplorerController.getStudentsFilterEmail();
     response.json(studentsHaveCertification);
 });
+
+
+app.get("/v1/students/credits", (request, response) => {
+    const studentsCredits = ExplorerController.getStudentsFilterCreditos();
+    response.json(studentsCredits);
+});
