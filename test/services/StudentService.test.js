@@ -7,6 +7,6 @@ const StudentService = require('./../../app/services/StudentService')
 describe("Test para servicios StudentServer", () =>{
     test("Prueba unitaria para primer requerimiento, metodo que trae todos los estudiantes", () =>{
         const getStudents= StudentService.getStudents();
-        expect(getStudents).toBe();
+        expect(getStudents);
     }) 
 })
