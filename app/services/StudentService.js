@@ -8,8 +8,6 @@ class StudentService{
       const explorersByMission = students.filter((student) => student.haveCertification == true);
           const studentsEmail =explorersByMission.map((studentt)=>studentt.email);
           return studentsEmail;
-    
-      
      //  const studentsEmailHaveCertification=studentsEmail.email;
     
     }
