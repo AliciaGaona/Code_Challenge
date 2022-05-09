@@ -14,6 +14,12 @@ class StudentsController{
         return studentsEmail;
     }
 
+    static getStudentsFilterCreditos(){
+        const students = Reader.readFileJson("students.json");
+        const studentsEmail = StudentService.getStudentsFilterCreditos(students);
+        return studentsEmail;
+    }
+    
 }
 
 module.exports=StudentsController
