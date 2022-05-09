@@ -11,7 +11,7 @@ const StudentsController= require("../../app/controller/StudentsController")
       expect(getStudents).not.toBeUndefined();
     });
 
-    test("Pruena unitaria para 3er requerimiento endpoint para consultar todos los estudiantes con todos sus campos, controller ", ()=>{
+    test("Prueba unitaria para 3er requerimiento endpoint para consultar todos los estudiantes con todos sus campos, controller ", ()=>{
       const students= [{ email: "Sharlene@visualpartnership.xyz",haveCertification: true}];
       const getStudents =StudentsController.getStudentsFilterCreditos(students);
       expect(getStudents.length).toBe(1);
