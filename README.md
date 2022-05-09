@@ -12,7 +12,7 @@ Crear .gitignore para no versional el node module, agregar la  siguiente línea:
 
 Se crea archivo principal del proyecto (index.js) y de agrega en package.json la referencia "start": "node index.js", para poder usar el comando npm start , y ais correr todo lo qye contenta este archivo.
 
-Se instala server express => npm install express --save y se cre aun archivo "app.js", el
+Se instala server express => npm install express --save y se cre aun archivo en el que pondremos lao servicios y el puerto.
 
 ---
 
