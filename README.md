@@ -71,6 +71,8 @@ Automatizawr los comandos de eslint en tu package.json (recuerda que la ruta den
   
   Agregar action github, para cada push revisar pruebas unitarias
   
+  Para solucionar el error => npm install jest@26.0.0 --save
+  
   Ruta:  github/workflows/test.yml
   
   
