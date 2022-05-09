@@ -19,3 +19,7 @@ app.get("/v1/students/credits", (request, response) => {
     const studentsCredits = ExplorerController.getStudentsFilterCreditos();
     response.json(studentsCredits);
 });
+
+app.listen(port, () => {
+    console.log(`Students API in localhost:${port}`);
+});
