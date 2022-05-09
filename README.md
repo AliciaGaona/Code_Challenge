@@ -1,17 +1,10 @@
 ## EN PROCESO DE DOCUMENTACIÓN...
 
 
-
-```
-{
-  "Nombre": "Edu",
-  "Peso": "72Kg"
-}
-```
-
-
-
-
+	
+Texto con referencia. [^1]
+ 
+[^1]: Nota de la referencia
 
 
 
