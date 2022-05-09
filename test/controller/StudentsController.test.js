@@ -6,7 +6,7 @@ const StudentsController= require("../../app/controller/StudentsController")
   });
 
     test("Prueba unitaria segundo requrimiento getStudentsFilterEmail, controller ", () =>{
-      const students= ({ email: "Sharlene@visualpartnership.xyz",haveCertification: true});
+      const students= [{ email: "Sharlene@visualpartnership.xyz",haveCertification: true}];
       const getStudents= StudentsController.getStudentsFilterEmail(students);
       expect(getStudents).not.toBeUndefined();
     });

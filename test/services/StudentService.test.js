@@ -11,7 +11,7 @@ describe("Test para servicios StudentServer", () =>{
     });
 
     test("Prueba unitaria para segundo requerimiento, metodo consultar los emails de todos los estudiantes que tengan certificación haveCertification.", () =>{    
-        const students= ({ email: "Sharlene@visualpartnership.xyz",haveCertification: true});
+        const students= [{ email: "Sharlene@visualpartnership.xyz",haveCertification: true}];
         const getStudents= StudentService.getStudentsFilterEmail(students);
        expect(getStudents.length).toBe(1);      
     });
