@@ -1,5 +1,22 @@
 ## EN PROCESO DE DOCUMENTACIÓN...
 
+
+
+```
+{
+  "Nombre": "Edu",
+  "Peso": "72Kg"
+}
+```
+
+
+
+
+
+
+
+
+
 ---
 
 # Code_Challenge
