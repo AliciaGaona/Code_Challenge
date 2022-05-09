@@ -5,10 +5,10 @@ class StudentService{
     }
 
     static getStudentsFilterEmail(students){
-        if(students.haveCertification){
-          const studentsEmail =students.map((student)=>student.email);
+      const explorersByMission = students.filter((student) => student.haveCertification == true);
+          const studentsEmail =explorersByMission.map((studentt)=>studentt.email);
           return studentsEmail;
-        }
+    
       
      //  const studentsEmailHaveCertification=studentsEmail.email;
     
