@@ -1,4 +1,4 @@
-const StudentServer = require('./../../app/services/StudentService')
+const StudentService = require('./../../app/services/StudentService')
 
 //Habilitar un endpoint para consultar todos los estudiantes que tengan credits mayor a 500.
 //endpoint para consultar los emails de todos los estudiantes que tengan certificación haveCertification.
@@ -6,7 +6,7 @@ const StudentServer = require('./../../app/services/StudentService')
 
 describe("Test para servicios StudentServer", () =>{
     test("Prueba unitaria para primer requerimiento, metodo que trae todos los estudiantes", () =>{
-        const getStudents= StudentServer.getStudents();
+        const getStudents= StudentService.getStudents();
         expect(getStudents).not.toBeUndefined();
 
     }) 
