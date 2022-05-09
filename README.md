@@ -31,6 +31,14 @@ Weekly Mission 4
  
 
 ---
+## Blog con información que puede interesarte
+
+https://aliciagaona.github.io/my_launchx_blog/posts/dependencias/
+
+
+En contrucción...
+---
+
 
 ## COMPONENTES
 
