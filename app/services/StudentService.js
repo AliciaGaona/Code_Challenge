@@ -1,7 +1,7 @@
 
 class StudentService{
-    static getStudents(){
-        return students
+    static getStudents(studentsReader){
+        return studentsReader;
     }
 }
 

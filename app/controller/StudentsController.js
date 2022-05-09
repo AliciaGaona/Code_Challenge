@@ -3,7 +3,10 @@ const Reader = require ("../utils/Reader")
 
 class StudentsController{
     static getStudents(){
-        const students = Reader.readFileJson("students.json");
-        return students;
+        const studentsReader = Reader.readFileJson("students.json");
+        const studentsAll= StudentService.getStudents(studentsReader);
+        return studentsAll;
     }
 }
+
+module.exports=StudentsController
