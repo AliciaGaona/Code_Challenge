@@ -8,5 +8,10 @@ describe("Test para servicios StudentServer", () =>{
     test("Prueba unitaria para primer requerimiento, metodo que trae todos los estudiantes", () =>{
         const getStudents= StudentService.getStudents();
         expect(getStudents);
+    })
+
+    test("Prueba unitaria para segundo requerimiento, metodo consultar los emails de todos los estudiantes que tengan certificación haveCertification.", () =>{
+        const getStudents= StudentService.getStudentsFilterEmail();
+        expect(getStudents);
     }) 
 })
