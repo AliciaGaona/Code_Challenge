@@ -1,15 +1,6 @@
 ## EN PROCESO DE DOCUMENTACIÓN...
 
 
-	
-Texto con referencia. [^1]
- 
-[^1]: Nota de la referencia
-
-
-
-
-
 ---
 
 # Code_Challenge
