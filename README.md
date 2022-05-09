@@ -166,3 +166,4 @@ Automatizawr los comandos de eslint en tu package.json (recuerda que la ruta den
 
 Todo este proyecto fue realizado durante la misión BackEnd  de LunchX, comandada y guiada por MC Carlo Gilmar 
   
+ Tiempo en resolver> 4horas y 40minutos
