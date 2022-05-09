@@ -10,7 +10,8 @@ class StudentsController{
 
     static getStudentsFilterEmail(haveCertification){
         const studentsReader = Reader.readFileJson("students.json");
-        const studentsEmail = StudentService.getStudentsFilterEmail(studentsReader, haveCertification)
+        const studentsEmail = StudentService.getStudentsFilterEmail(studentsReader, haveCertification);
+        return studentsEmail;
     }
 
 }
