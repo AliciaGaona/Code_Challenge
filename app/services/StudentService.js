@@ -4,11 +4,17 @@ class StudentService{
         return studentsReader;
     }
 
-    static getStudentsFilterEmail(students,haveCertification){
-        const studentsEmail =students.filter((student)=>students.haveCertification == true);
-        const studentsEmailHaveCertification=studentsEmail.email;
-        return studentsEmailHaveCertification;
+    static getStudentsFilterEmail(students){
+        if(students.haveCertification){
+          const studentsEmail =students.map((student)=>student.email);
+          return studentsEmail;
+        }
+      
+     //  const studentsEmailHaveCertification=studentsEmail.email;
+    
     }
+
+
 
     
 }

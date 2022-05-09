@@ -8,9 +8,9 @@ class StudentsController{
         return studentsAll;
     }
 
-    static getStudentsFilterEmail(haveCertification){
-        const studentsReader = Reader.readFileJson("students.json");
-        const studentsEmail = StudentService.getStudentsFilterEmail(studentsReader, haveCertification);
+    static getStudentsFilterEmail(){
+        const students = Reader.readFileJson("students.json");
+        const studentsEmail = StudentService.getStudentsFilterEmail(students);
         return studentsEmail;
     }
 

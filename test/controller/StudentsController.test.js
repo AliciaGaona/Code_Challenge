@@ -5,8 +5,8 @@ const StudentsController= require("../../app/controller/StudentsController")
     expect(getStudents).not.toBeUndefined();
 
     test("Prueba unitaria segundo requrimiento getStudentsFilterEmail, controller ", () =>{
-    const getStudentsFilterEmail=StudentsController.getStudentsFilterEmail("haveCertification");
-    expect(getStudentsFilterEmail).toBeDefined();
+    const getStudentsFilterEmail=StudentsController.getStudentsFilterEmail();
+    expect(getStudentsFilterEmail).not.toBeDefined();
     })
     
 }) 
