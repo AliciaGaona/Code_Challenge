@@ -4,3 +4,5 @@ class StudentService{
         return students
     }
 }
+
+module.exports=StudentService
