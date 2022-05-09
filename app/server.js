@@ -4,7 +4,12 @@ const app = express();
 app.use(express.json());
 const port= 3000;
 
-app.get("/v1/explorers/all", (request, response) => {
-    const explorersInMission = ExplorerController.getStudents();
+app.get("/v1/students/all", (request, response) => {
+    const studentsAll = ExplorerController.getStudents();
     response.json(explorersInMission);
+});
+
+app.get("/v1/students/Email/haveCertification", (request, response) => {
+    const studentsHaveCertification = ExplorerController.getStudentsFilterEmail();
+    response.json(studentsHaveCertification);
 });
