@@ -16,9 +16,9 @@ describe("Test para servicios StudentServer", () =>{
        expect(getStudents.length).toBe(1);      
     });
 
-    // test("Pruena unitaria para 3er requerimiento endpoint para consultar todos los estudiantes con todos sus campos.", ()=>{
-    //     const students= ({ email: "Sharlene@visualpartnership.xyz",haveCertification: true});
-    //     const getStudents =StudentService.getStudentsFilterCreditos(students);
-    //     expect(getStudents.length).toBe(2);
-    // });
+    test("Pruena unitaria para 3er requerimiento endpoint para consultar todos los estudiantes con todos sus campos.", ()=>{
+        const students= [{ email: "Sharlene@visualpartnership.xyz",haveCertification: true}];
+        const getStudents =StudentService.getStudentsFilterCreditos(students);
+        expect(getStudents.length).toBe(1);
+    });
 })
