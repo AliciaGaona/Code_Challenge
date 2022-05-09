@@ -1,4 +1,4 @@
-## EN PROCESO DE DOCUEMNTACIÓN
+## EN PROCESO DE DOCUMENTACIÓN...
 
 ---
 
@@ -10,13 +10,30 @@ Weekly Mission 4
 ## DEPENDENCIAS:
 
 
+![image](https://user-images.githubusercontent.com/99162884/167360331-52ac5a1b-9395-47ac-9d3c-3b36a36dc817.png)
 
+
+
+- Jest: Es una librería que nos permite escribir y ejecutar tests.
+
+ Documentación: https://jestjs.io/docs/api
+
+
+- EsLint: Es una herramienta de código abierto, que nso ayuda a limpiar nuestro código, podemos agregarle las reglas que necesitemos, y con un solo comando te muestra los errores y con otro los corrige.
+
+ Documentación : https://eslint.org/docs/rules/
+ 
+- Express Server: Nos ayuda a crear servidor para nuestra API.
+
+ Documentación: https://expressjs.com/es/
+ 
+ 
 
 ---
 
 ## COMPONENTES
 
-
+En proceso...
 
 
 ---
@@ -120,7 +137,6 @@ Automatizawr los comandos de eslint en tu package.json (recuerda que la ruta den
   npm run linter-fix - se ejecuta para corregir
   
   
-  Documentación : https://eslint.org/docs/rules/
   
   ---
   
