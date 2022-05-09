@@ -8,6 +8,11 @@ class StudentsController{
         return studentsAll;
     }
 
+    static getStudentsFilterEmail(haveCertification){
+        const studentsReader = Reader.readFileJson("students.json");
+        const studentsEmail = StudentService.getStudentsFilterEmail(studentsReader, haveCertification)
+    }
+
 }
 
 module.exports=StudentsController

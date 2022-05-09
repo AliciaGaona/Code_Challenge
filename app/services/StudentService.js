@@ -4,9 +4,10 @@ class StudentService{
         return studentsReader;
     }
 
-    static getStudentsFilterEmail(students,email){
-        const studentsEmail =students.filter((student)=>students.email == email);
-        return studentsEmail;
+    static getStudentsFilterEmail(students,haveCertification){
+        const studentsEmail =students.filter((student)=>students.haveCertification == true);
+        const studentsEmailHaveCertification=studentsEmail.email;
+        return studentsEmailHaveCertification;
     }
 
     
