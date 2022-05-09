@@ -34,7 +34,9 @@ Weekly Mission 4
 
 ## COMPONENTES
 
-En proceso...
+En proceso de atrapar conejo blanco... Se realizará con mermaid:
+
+Refrencia: https://mermaid-js.github.io/mermaid/#/./integrations
 
 
 ---
